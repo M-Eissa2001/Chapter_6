@@ -29,10 +29,10 @@ try {
     f(vv);
 }
 catch (std::exception& e) {
-    std::cerr << "Exception: " << e.what() << '\n';
+    cerr << "Exception: " << e.what() << '\n';
     return 1;
 }
 catch (...) {
-    std::cerr << "Unknown exception\n";
+    cerr << "Unknown exception\n";
     return 2;
 }
